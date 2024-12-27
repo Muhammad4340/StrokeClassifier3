@@ -9,7 +9,7 @@ st.header('Klasifikasi Pencitraan Otak Penderita Stroke')
 stroke_names = ['hemorrhagic', 'ischemic']
 
 # Load the pre-trained model
-model = load_model('Stroke_Recog_Modelll.keras')
+model = load_model('baseline_modelll.keras')
 
 def classify_images(image_path):
     # Preprocess the image
